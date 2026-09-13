@@ -105,6 +105,7 @@ const MusicPlayer = () => {
         ref={audioRef}
         src={currentTrack.url}
         preload="metadata"
+        controls
       />
 
       <div className="track-info">
